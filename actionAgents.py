@@ -9,7 +9,6 @@ from langchain.tools import tool
 import numexpr as ne
 from langchain_community.tools.wikipedia.tool import WikipediaQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper
-
 from langchain.agents import create_agent
 
 load_dotenv()
