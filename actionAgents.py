@@ -54,7 +54,7 @@ query = (
 )
 
 response = agent.invoke({"messages": [("user", query)]})
-
-print(response["messages"][-1].content)
+final_message = response["messages"][-1]
+print(final_message.content)
 
 
