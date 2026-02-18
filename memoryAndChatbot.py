@@ -11,8 +11,8 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 llm = ChatGroq(
-    model="llama-3.1-8b-instant",
-    temperature= 0.9,
+    model="llama-3.3-70b-versatile",
+    temperature= 0.9
 )
 
 prompt = ChatPromptTemplate.from_messages([
